@@ -39,7 +39,7 @@ function SignUp() {
         </div>
         
         <div className="login-right">
-          <h2>Sign in</h2>
+          <h2>Register</h2>
           <form className="login-form" onSubmit={handleLogin}> {/* Call handleLogin on submit */}
             <input type="text" placeholder="Enter email or user name" />
             <input type="password" placeholder="Password" />

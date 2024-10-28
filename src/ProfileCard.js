@@ -12,7 +12,7 @@ export const ProfileCard = ({ name, image, description,handleNavigate }) => {
       </div>
       <div className="card-body">
         <h3>{name}</h3>
-        <p>{description}</p>
+        <h3>{description}</h3>
         <div className="social-icons">
           <a href="#"><i className="fab fa-facebook"></i></a>
           <a href="#"><i className="fab fa-twitter"></i></a>
@@ -55,13 +55,13 @@ const navigate=useNavigate()
 
      <Stack direction="row" justifyContent="center">
                 <ProfileCard
-                  name="Dave Wood"
+                  name=""
                   image="/std.png" // Replace with actual path
                   description="Student"
                   handleNavigate={()=>handleNavigate('student')}
                 />
                 <ProfileCard
-                  name="Joe Miller"
+                  name=""
                   image="/tch.png" // Replace with actual path
                   description="Lecturer"
                   handleNavigate={()=>handleNavigate('lecturer')}
