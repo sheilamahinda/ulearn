@@ -15,9 +15,9 @@ function HomePage() {
           </div>
           <ul className="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#courses">Courses</a></li>
+            
+            <li><a href="/ServicesPage">Services</a></li>
+            
             <li><Link to="/profiles">Profile/Dashboard</Link></li> {/* Update the Link to point to login */}
           </ul>
           <button className="contact-btn">Contact</button>
@@ -26,41 +26,43 @@ function HomePage() {
 
       <section className="hero full-width">
         <h1>
-          <span className="highlight-green">This is Your Gateway to</span> <br />
-          Unlimited Educational Resources
+          <span className="highlight-green">Logitex Cargo</span> <br />
+          The link to your market and customers
         </h1>
-        <p>Achieve your fluency goals with the best English learning resources.</p>
-        <button className="cta-btn">Start Today</button>
+        <p>Explore innovative solutions and strategic partnerships to unlock new growth opportunities and achieve operational excellence in the shipping industry.</p>
+        <button className="cta-btn"><Link to="/LoginPage">BOOK TODAY</Link></button>
       </section>
 
       <section className="challenges-solutions full-width">
         <div className="column challenges">
-          <h2>85%</h2>
-          <p>Reliable.</p>
+          <h2>95%</h2>
+          <p>Achieving operational efficiency.</p>
         </div>
         <div className="column solutions">
-          <h2>86%</h2>
-          <p>Convenient</p>
+          <h2>96%</h2>
+          <p>Leadership in the shipping industry.</p>
         </div>
         <div className="column solutions">
-          <h2>88%</h2>
-          <p>Assurance</p>
+          <h2>98%</h2>
+          <p>Empowered through mentorship and teamwork.</p>
         </div>
       </section>
 
       <section className="welcome">
         <h2>Welcome</h2>
-        <p>Our platform provides students worldwide with the best educational resources. We pride ourselves on creating a supportive and engaging learning environment, where learners can connect, collaborate, and share knowledge. Our dedicated instructors and a vibrant community of peers are here to help you navigate through challenges, provide feedback, and celebrate your achievements. Whether you're looking to build new skills for a career change, improve your current expertise, or simply explore new interests, we are here to guide you every step of the way.</p>
+        <p> Our platform is dedicated to driving efficiency and success in the shipping logistics industry. We offer a comprehensive range of services, including freight management, supply chain optimization, and timely delivery solutions. Join us to streamline your operations, reduce costs, and enhance the effectiveness of your logistics processes.</p>
       </section>
 
       <section className="standout full-width">
-        <img src="/group.jpeg" alt="Standout" />
+        <img src="/bwom.jpg" alt="Standout" />
         <div className="content">
           <h2>Discover More About Our Services</h2>
           <p>
-            We are committed to providing exceptional service and creating long-lasting value for our clients. Our innovative solutions are designed to meet your financial needs and exceed your expectations.
+          We support the growth and success of businesses in the logistics industry by providing high-quality services, efficient solutions, and expert guidance. Our platform is designed to help companies streamline operations, enhance their supply chain efficiency, and achieve their business goals in the logistics sector.
           </p>
-          <button className="learn-more-button">Learn More</button>
+          <button className="learn-more-button">
+  <Link to="/services">Learn More</Link>
+</button>
         </div>
       </section>
 
@@ -71,20 +73,20 @@ function HomePage() {
         <h3>Student Feedback</h3>
         <div className="feedback-cards">
           <div className="feedback">
-            <p>"This platform has significantly improved my speaking skills!"</p>
+            <p>"This platform has connected me to logistics solutions and services I never imagined, helping streamline operations, optimize supply chains, and enhance business efficiency."</p>
             <h4>Jane Milwa</h4>
           </div>
           <div className="feedback">
-            <p>"I feel more confident in business meetings thanks to these courses."</p>
+            <p>"I've gained operational expertise and strategic insight, transforming the way I approach logistics and driving success in my career."</p>
             <h4>Eva Kamira</h4>
           </div>
         </div>
       </section>
 
       <section className="explore-courses">
-        <h3>Explore our Courses</h3>
-        <p>Browse through a variety of expertly designed courses to master English.</p>
-        <button className="explore-btn">Explore Now</button>
+        <h3>Explore our Services.</h3>
+        <p>Access our comprehensive logistics solutions for efficient freight management, supply chain optimization, and reliable delivery.</p>
+        <button className="explore-btn"><Link to="/services">Learn More</Link></button>
       </section>
 
       <footer>
@@ -95,7 +97,7 @@ function HomePage() {
             <button className="subscribe-btn">Subscribe</button>
           </div>
           <div className="footer-links">
-            <p>© 2024 Native English. All rights reserved.</p>
+            <p>© 2025 Logitex Cargo. All rights reserved.</p>
             <ul>
               <li><a href="#privacy">Privacy Policy</a></li>
               <li><a href="#terms">Terms & Conditions</a></li>

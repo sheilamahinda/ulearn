@@ -1,5 +1,9 @@
+
+
 // Dashboard Component
 export const Dashboard = () => {
+ 
+
   return (
     <div className="dashboard-content">
       <div className="dashboard-welcome">
@@ -18,59 +22,32 @@ export const Dashboard = () => {
               />
             </div>
             <div className="profile-details">
-              <h3>Sheila Mahinda</h3>
+              <h3>Sheila</h3>
               <p>
-                Sheila Mahinda is a passionate student interested in leveraging
-                technology to address societal challenges. She is focused on using her
-                tech skills to create solutions that make a positive impact in
-                society.
+              Sheila, Welcome aboard! At our shipping company, we're dedicated to ensuring seamless and reliable logistics solutions. Whether you're navigating local or international shipping, we're here to simplify your journey and deliver excellence. Let's set sail for success together!
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* New Class Timetable Section */}
-      <div className="class-timetable">
-        <h3>Class Timetable</h3>
-        <table className="timetable-table">
-          <thead>
-            <tr>
-              <th>Time</th>
-              <th>Monday</th>
-              <th>Tuesday</th>
-              <th>Wednesday</th>
-              <th>Thursday</th>
-              <th>Friday</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>9:00 AM - 10:30 AM</td>
-              <td>Networking</td>
-              <td></td>
-              <td>digital systems</td>
-              <td>information systems</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>11:00 AM - 12:30 PM</td>
-              <td></td>
-              <td>information systems</td>
-              <td></td>
-              <td>Networking</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>2:00 PM - 3:30 PM</td>
-              <td>Digita systems</td>
-              <td></td>
-              <td>Networking</td>
-              <td>Information systems</td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+     {/* Mentorship and Leadership Opportunities Section */}
+     <div className="mentorship-section">
+        <h3>Mentorship & Leadership Opportunities</h3>
+        <ul className="opportunities-list">
+          <li>
+            <strong>Leadership Workshop:</strong> Join us for a workshop focused on developing leadership skills tailored for women. <em>Next session: Nov 15, 2024</em>
+          </li>
+          <li>
+            <strong>Mentorship Program:</strong> Connect with experienced mentors in your field. <em>Apply by: Nov 10, 2024</em>
+          </li>
+          <li>
+            <strong>Networking Event:</strong> Participate in a networking event to meet like-minded women and industry leaders. <em>Date: Dec 5, 2024</em>
+          </li>
+          <li>
+            <strong>Panel Discussion:</strong> Attend a panel discussion featuring successful women leaders sharing their journeys. <em>Date: Dec 10, 2024</em>
+          </li>
+        </ul>
       </div>
 
       <div className="daily-progress">

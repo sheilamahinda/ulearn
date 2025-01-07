@@ -112,7 +112,7 @@ body, html, ul {
   left: 0; /* Align to the left */
   right: 0; /* Align to the right */
   bottom: 0; /* Align to the bottom */
-  background-image: url('../public/group.jpeg'); /* Set the background image */
+  background-image: url('../public/hannes.jpg'); /* Set the background image */
   background-size: cover; /* Ensure the image covers the area */
   background-position: center;
   opacity: 0.35; /* Set the desired opacity for the background */

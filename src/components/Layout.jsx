@@ -193,13 +193,13 @@ export default function DashboardLayout({ children }) {
 const sidebarItems = [
   {
     id: 0,
-    name: "Dashboard",
+    name: "Profile",
     path: "dashboard",
     icon: <Home />,
   },
   {
     id: 1,
-    name: "Resources",
+    name: "Book Delivery",
     path: "resources",
     icon: <LibraryBooks />,
   },
@@ -211,19 +211,27 @@ const sidebarItems = [
   //   },
   {
     id: 3,
-    name: "Grade",
-    path: "grades",
-    icon: <Grade />,
+    name: "Delivery History",
+    path: "delivery", // Ensure this matches the route's path
+    icon: <LibraryBooks />,
   },
   {
-    id: 4,
-    name: "Chats",
-    path: "communicate",
-    icon: <LiveHelp />,
+    id: 4, // You can set any ID that fits in the sequence
+    name: "Transaction History",  // Display name in the sidebar
+    path: "payment",  // The path you'll use for routing
+    icon: <LibraryBooks />  // You can choose a suitable icon
+  },
+  
+  {
+    id: 6,
+    name: "Notifications",
+    path: "notification", // Updated path
+    icon: <InboxIcon />,
   },
 
+
   {
-    id: 5,
+    id: 7,
     name: "Contact",
     path: "contact",
     icon: <Contacts />,
